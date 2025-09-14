@@ -26,7 +26,7 @@ public class TestPayrollCalculator {
     }
 
     @Test
-    void itCalculatesTenHoursWorked(){assertEquals(payrollCalculator.grossPay(10, hourlyPay), 2181.0);}
+    void itCalculatesTenHoursWorked(){assertEquals(payrollCalculator.grossPay(10, hourlyPay), 167.8);}
 
 
 }
